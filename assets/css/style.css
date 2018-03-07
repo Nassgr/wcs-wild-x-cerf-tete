@@ -2,8 +2,31 @@
 
 
 /** ##### PRESENTATION ##### */
+#photoCT {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10%;
+}
 
+.uppercase {
+	text-transform: uppercase;
+}
 
+#presentation {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.summary {
+	font-weight: bold;
+}
+
+.resume {
+	margin-left: 40px;
+}
 /** ##### GALERIE ##### */
 
 
