@@ -1,0 +1,46 @@
+/** ##### NAVIGATION BAR ##### */
+
+
+/** ##### PRESENTATION ##### */
+
+
+/** ##### GALERIE ##### */
+
+
+/** ##### A PROPOS DE NOUS ##### */
+
+
+/** ##### ON PARLE DE NOUS ##### */
+
+
+/** ##### PRE COMMANDE ##### */
+.preorder{
+	font-weight: bold;
+}
+
+.cerfs{
+	font-weight: bold;
+}
+
+.name{
+	font-weight: bold;
+
+}
+
+
+.btn-light {
+    color: black;
+    margin-top: 100px;
+	background-color: #E0E0E0;
+	border-color: #E0E0E0;    
+}
+.quantity {
+	font-weight: bold;
+}
+
+
+
+
+
+
+/** ##### FOOTER ##### */
