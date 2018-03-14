@@ -4,7 +4,6 @@
 }
 .container
 {
-	background-color: #333333
 	width: 100%;
 	height: 100%;
 }
@@ -27,37 +26,48 @@
 
 
 /** ##### FOOTER ##### */
-
-.jumbotron
+.footer
 {
-	background-color: white;
-}
-#twitter
-{
-	width: 50px;
-	margin-top: 40px;
-	margin-left: 100px;
-}
-#facebook
-{
-	width: 50px;
-	margin-top: 40px;
-	margin-left: 100px;
-}
-figcaption
-{
-	color:white;
-	margin-top: 10px;
-	margin-left: 100px;
-	text-decoration: underline;
+	background-color: #333333
 }
 #logo
 {
-	width: 250px;
-	margin-left: 30px;
-	padding: 30px;
+
+	padding-top: 60px;
+	padding-left: 50px;
 }
-col-6, footer
+
+.link
 {
-	background-color: #333333
+	padding-top: 60px;
+	list-style-type: none;
+	color: orangered;
+}
+.img-fluid
+{
+	width: 80%
+	padding-left: 50px;
+	padding-top: 30px;
+	
+}
+.copyright
+{
+	padding-top: 15px;
+	color: white;
+	padding-left: 50px;
+	font-size: 12px;
+}
+
+a
+{
+	color:white;
+	font-size: 16px;	
+}
+a:hover
+{
+	color: orangered;
+}
+.resaux
+{
+	padding-top: 90px;
 }
