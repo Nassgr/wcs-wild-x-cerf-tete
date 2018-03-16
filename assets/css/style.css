@@ -64,14 +64,6 @@ section:not(.bg-black){
 .display-more .display-body { padding-top: 30px; }
 
 /** ##### GALERIE ##### */
-.gallery {
-	display: flex;
-	overflow-x: auto;
-	margin-top: 30px;
-}
-.gallery-item { margin-left: 30px; }
-.gallery > .gallery-item:first-of-type { margin-left: 0px; }
-.gallery-item img { height: 100px; }
 
 /** ##### A PROPOS DE NOUS ##### */
 .about-background {
