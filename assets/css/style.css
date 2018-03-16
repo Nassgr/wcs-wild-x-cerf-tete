@@ -5,6 +5,7 @@ section > .container { padding: 120px 30px !important; }
 h2 {
 	border-left: 3px solid #FF5722;
 	padding-left: 20px;
+	font-family: "Varela";
 }
 .full-page {
 	min-height: 100vh;
@@ -91,11 +92,12 @@ section:not(.bg-black){
 
 
 /** ##### PRE COMMANDE ##### */
-.btn-light {
-    color: black;
-	background-color: #E0E0E0;
-	border-color: #E0E0E0;    
+.btn-black {
+    color: white;
+	background-color: #424242;
+	border: none;
 }
+.btn-black:hover { background-color: #333333; }
 
 /** ##### FOOTER ##### */
 footer { padding: 30px 0px; }
