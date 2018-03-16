@@ -138,26 +138,26 @@
 			<div class="container">
 				<!-- Title & Subtitle -->
 				<h2>Pré-commande</h2>
-				<p class="font-weight-bold">Les cerfs n'attendent plus que toi!</p>
+				<p class="form-text text-muted">Les cerfs n'attendent plus que toi!</p>
 				
 				<!-- Formulaire -->
 				<form method="POST" action="#">
 					<!-- Name -->
 					<div class="form-group">
 						<label><strong>Nom :</strong></label>
-						<input type="name" class="form-control" name="name" placeholder="Nom">
+						<input type="name" class="form-control" name="name" placeholder="Nom" required>
 					</div>
 
 					<!-- FirstName -->
 					<div class="form-group">
 						<label><strong>Prénom :</strong></label>
-						<input type="firstName" class="form-control" name="firstName" placeholder="Prénom">
+						<input type="firstName" class="form-control" name="firstName" placeholder="Prénom" required>
 					</div>
 
 					<!-- Quantity -->
 					<div class="form-group">
 						<label><strong>Quantité :</strong></label>
-						<select class="form-control" name="quantity">
+						<select class="form-control" name="quantity" required>
 							<option value="">Choisir la quantité</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -165,6 +165,12 @@
 							<option value="4">4</option>
 							<option value="5">5</option>
 						</select>
+					</div>
+
+					<!-- Email -->
+					<div class="form-group">
+						<label><strong>Email :</strong></label>
+						<input type="email" class="form-control" name="email" placeholder="Adresse e-mail" required/>
 					</div>
 
 					<!-- Validation -->
