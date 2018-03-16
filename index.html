@@ -2,11 +2,14 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Wild Cerf Tête</title>
 		<!-- CSS -->
-		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="assets/plugins/slick-1.8.0/slick/slick.css"/>
+		<link rel="stylesheet" href="assets/plugins/slick-1.8.0/slick/slick-theme.css"/>
+		<link rel="stylesheet" href="assets/plugins/magnific-popup/dist/magnific-popup.css"/>
+		<link rel="stylesheet" href="assets/css/style.css"/>
 	</head>
 	<body>
 		<!-- Navigaton bar (Anass, Erwann) -->
@@ -44,18 +47,12 @@
 			<div class="container m-auto">
 				<div class="row">
 					<div class="col-lg-6">
-						<!-- Image + Description -->
-						<figure>
-							<img class="presentation-illustration" src="assets/img/presentation/cerf_tete.jpg" alt="Une superbe photo">
-							<figcaption>
-
-							</figcaption>
-						</figure>
+						<img class="img-fluid" src="assets/img/presentation/cerf_tete.jpg" alt="Une superbe photo"/>
 					</div>
 					<div class="col-lg-6">
 						<div>
-							<h2 class="text-uppercase">Cerf-tête</h2>
-							<p class="presentation-description">
+							<h2>Cerf-tête</h2>
+							<p class="text-justify">
 								Le but de ce produit exclusif et révolutionnaire est de pouvoir communiquer avec les cerfs. Pourquoi ? Car le cerf est le roi de la forêt, si on lui parle on accède donc à tous les autres animaux ! Le but est d'améliorer la compréhension et donc les échanges avec les animaux qui nous entourent. Ainsi, nous pourrons mieux protéger notre environnement et nos ressources.
 							</p>
 						</div>
@@ -91,17 +88,36 @@
 		<section class="bg-black" id="gallery">
 			<div class="container">
 				<h2>Galerie</h2>
+				<div class="slider about">
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+					<a href="http://via.placeholder.com/150x150" title="Superbe photo">
+						<img class="slider-img" src="http://via.placeholder.com/150x150" alt="Image gallerie"/>
+					</a>
+				</div>
 			</div>
 		</section>
 
 		<!-- A propos de nous (Anass) -->
-		<section id="about">
+		<section id="about" class="about-background" style="background-image: url('assets/img/about/scientific.jpg')"">
 			<div class="container">
 				<h2>A propos de nous</h2>
 				<p class="lead">
 					Présentation de la société Wild X, créatrice du Cerf-tête connecté. Son PDG, Élan Musk, souhaite révolutionner le rapport entre les hommes et les animaux, à l'aide de toute la technologie moderne que l'équipe R&amp;D de WildX développe.
 				</p>
-				<img src="assets/img/about/scientific.jpg" class="img-fluid" alt="Responsive image">
 			</div>
 		</section>
 
@@ -109,13 +125,13 @@
 		<section class="bg-black" id="talk">
 			<div class="container">
 				<h2>On parle de nous</h2>
-				<div class="gallery">
-					<div class="gallery-item"><img src="assets/img/news/le-monde.png" alt="Logo journal"/></div>
-					<div class="gallery-item"><img src="assets/img/news/le-petit-journal.png" alt="Logo journal le petit journal" /></div>
-					<div class="gallery-item"><img src="assets/img/news/la-presse.jpg" alt="Logo journal la presse"/></div>
-					<div class="gallery-item"><img src="assets/img/news/le-parisien.png" alt="Logo journal le parisien"/></div>
-					<div class="gallery-item"><img src="assets/img/news/liberation.jpg" alt="Logo journal libération"/></div>
-					<div class="gallery-item"><img src="assets/img/news/20-minutes.png" alt="Logo journal 20 minutes"/></div>
+				<div class="slider about">
+					<div><img class="slider-img" src="assets/img/news/le-monde.png" alt="Logo journal"/></div>
+					<div><img class="slider-img" src="assets/img/news/le-petit-journal.png" alt="Logo journal le petit journal" /></div>
+					<div><img class="slider-img" src="assets/img/news/la-presse.jpg" alt="Logo journal la presse"/></div>
+					<div><img class="slider-img" src="assets/img/news/le-parisien.png" alt="Logo journal le parisien"/></div>
+					<div><img class="slider-img" src="assets/img/news/liberation.jpg" alt="Logo journal libération"/></div>
+					<div><img class="slider-img" src="assets/img/news/20-minutes.png" alt="Logo journal 20 minutes"/></div>
 				</div>
 			</div>
 		</section>
@@ -195,6 +211,8 @@
 		<script src="assets/plugins/jquery/jquery-3.2.1.slim.min.js"></script>
 		<script src="assets/plugins/popper.js/popper.min.js"></script>
 		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/slick-1.8.0/slick/slick.min.js"></script>
+		<script src="assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 		<script type="text/javascript">
 			function onResize(){
 				let open = window.innerWidth > 970,
@@ -205,7 +223,28 @@
 			}
 
 			window.onresize = onResize;
-			document.addEventListener("DOMContentLoaded", () => onResize());
+			document.addEventListener("DOMContentLoaded", () => {
+				onResize();
+				$(".slider.about").slick({
+					dots: true,
+					infinite: true,
+					centerMode: true,
+					variableWidth: true,
+					autoplay: true,
+					autoplayspeed: 1000
+				});
+				$("#gallery .slider").magnificPopup({
+					delegate: "a",
+					type: "image",
+					tLoading: "Chargement de l'image #%curr%...",
+					mainClass: "mfp-img-mobile",
+					gallery: {
+						enabled: true,
+						navigateByImgClick: true,
+						preload: [0, 1]
+					}
+				})
+			});
 		</script>
 	</body>
 </html>
